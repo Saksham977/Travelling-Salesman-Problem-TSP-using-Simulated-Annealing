@@ -145,7 +145,7 @@ int main(){
     PointReader reader;
 
     // Reading the points from the file 
-    if(reader.read_points("C:\\Users\\hp\\Desktop\\Books\\IITG (MASAI)\\Trisemester-1\\C++\\LAB PracticeAssignments\\TSP Project\\380 tsp points.txt")){
+    if(reader.read_points("380 tsp points.txt")){
         cout<<"Points read successfully"<<endl;
     }
     else{
